@@ -1,7 +1,8 @@
 # Automation testing with Cypress
+
 # 1. [Test SauseDemo](https://github.com/Veaceslav85/QA-Testing/tree/QA_Cypress/cypress/e2e/TesteSaucedemo)
-## "TestCase #1"
-### Access home page [code](https://github.com/Veaceslav85/QA-Testing/blob/QA_Cypress/cypress/e2e/TesteSaucedemo/AccesHomePage.cy.js)
+##  TestCase #1
+### Access home page. [code](https://github.com/Veaceslav85/QA-Testing/blob/QA_Cypress/cypress/e2e/TesteSaucedemo/AccesHomePage.cy.js)
 #### Description:
      Open home page.
 #### Steps to reproduce:
@@ -10,6 +11,62 @@
      User should be able to access https://www.saucedemo.com/ 
 #### Test Data: 
      https://www.saucedemo.com/
+#### Status:
+    Done
+
+##  TestCase 2#
+### Login Without User and Password [code](https://github.com/Veaceslav85/QA-Testing/blob/QA_Cypress/cypress/e2e/TesteSaucedemo/Login_Without_User_and_Password.cy.js)
+#### Description:
+     Open the home page and check if the login form is present and working properly without introducing a username and password.
+#### Steps to reproduce:
+      1. Go to https://www.saucedemo.com/
+	 2. Verify if exist login form.
+	 3. Verify if exist a Login Button and click it.
+	 4. Verify if it display message 'Epic sadface: Username is required'	
+#### Expected result:
+     User can not login to https://www.saucedemo.com/ 
+#### Test Data: 
+     https://www.saucedemo.com/
+#### Status:
+    Done
+
+##  TestCase 3#
+### Login Without Password [code](https://github.com/Veaceslav85/QA-Testing/blob/QA_Cypress/cypress/e2e/TesteSaucedemo/Login_Without_Password.cy.js)
+#### Description:
+     Open the home page and check if the login form is present and working properly without introducing a  password.
+#### Steps to reproduce:
+      1. Go to https://www.saucedemo.com/
+	 2. Verify if exist login form.
+	 3. Check if input 'Username' are existing and click on it
+	 4.	Check if input value is 'standard_user'.	
+	 5. Verify if exist a Login Button and click it.
+	 6. Verify if it display message 'Epic sadface: Password is required'	
+#### Expected result:
+     User can not login to https://www.saucedemo.com/ 
+#### Test Data: 
+     https://www.saucedemo.com/
+	 input value 'standard_user'
+
+#### Status:
+    Done
+
+##  TestCase 4#
+### Login Without Password [code](https://github.com/Veaceslav85/QA-Testing/blob/QA_Cypress/cypress/e2e/TesteSaucedemo/Login_Without_User_Name.cy.js)
+#### Description:
+     Open the home page and check if the login form is present and working properly without introducing a  Username.
+#### Steps to reproduce:
+      1. Go to https://www.saucedemo.com/
+	 2. Verify if exist login form.
+	 3. Check if input 'Password' are existing and click on it
+	 4. Check if input value is 'secret_sauce'	
+	 5. Verify if exist a Login Button and click it.
+	 6. Verify if it display message 'Epic sadface: Username is required'	
+#### Expected result:
+     User can not login to https://www.saucedemo.com/ 
+#### Test Data: 
+     https://www.saucedemo.com/
+	input value 'secret_sauce'
+
 #### Status:
     Done
 
