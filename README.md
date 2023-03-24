@@ -92,7 +92,7 @@
 #### Status:
      Done
      
-     ##   TestCase #6
+##   TestCase #6
 ###  Login With Invalid Password [code](https://github.com/Veaceslav85/QA-Testing/blob/QA_Cypress/cypress/e2e/TesteSaucedemo/Login_With_Invalid_Password.cy.js)
 #### Description:
      Open the home page and check if the login form is present and working properly without introducing a  Invalid password.
