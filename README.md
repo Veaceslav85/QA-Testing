@@ -91,6 +91,28 @@
      input password value 'secret_sauce'
 #### Status:
      Done
+     
+     ##   TestCase #6
+###  Login With Invalid Password [code](https://github.com/Veaceslav85/QA-Testing/blob/QA_Cypress/cypress/e2e/TesteSaucedemo/Login_With_Invalid_Password.cy.js)
+#### Description:
+     Open the home page and check if the login form is present and working properly without introducing a  Invalid password.
+#### Steps to reproduce:
+     1. Go to https://www.saucedemo.com/
+     2. Verify if exist login form.
+     3. Check if input 'Username' are existing and click on it.
+     4. Check if input value is 'standard_user'.
+     5. Check if input 'Password' are existing and click on it.
+     6. Check if input value is 'invalid_password'.	
+     7. Verify if exist a Login Button and click it.
+     8. Verify if it display message 'Epic sadface: Username and password do not match any user in this service'.	
+#### Expected result:
+     User can not login to https://www.saucedemo.com/ 
+#### Test Data: 
+     https://www.saucedemo.com/
+     input user value 'standard_user'
+     input password value 'invalid_password'
+#### Status:
+     Done
 
 2.   [Test LinkedIn](https://github.com/Veaceslav85/QA-Testing/tree/QA_Cypress/cypress/e2e/TesteLinkedIn)
 3.   [Test 999]
