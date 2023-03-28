@@ -17,6 +17,7 @@ describe('Remove Product from Shopping Cart', () => {
         cy.get('.shopping_cart_link').should('exist').click();
         cy.get('.cart_list').should('exist');
         cy.get('[data-test="remove-sauce-labs-backpack"]').should('have.text','Remove').click();
+        cy.get('.cart_item').should('not.exist');
         cy.get('[data-test="continue-shopping"]').should('have.text','Continue Shopping').click();
     })
 
